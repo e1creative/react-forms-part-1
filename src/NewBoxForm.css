@@ -1,0 +1,35 @@
+.NewBoxForm {
+    width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.NewBoxForm-title {
+    margin: 0 0 2rem 0;
+}
+
+.NewBoxForm label, 
+.NewBoxForm input, 
+.NewBoxForm button {
+    width: 100%;
+}
+
+.NewBoxForm label {
+    margin-bottom: .5rem;
+}
+.NewBoxForm input {
+    margin-bottom: 1rem;
+    height: auto;
+    font-size: 1rem;
+    padding: .25rem;
+}
+
+.NewBoxForm button {
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+}
